@@ -1,0 +1,28 @@
+{
+  "name": "benshack-prompter",
+  "version": "1.0.0",
+  "description": "A simple ES6 typeout prompter",
+  "main": "dist/prompter.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run build"
+  },
+  "author": {
+    "name": "Ben Shackleton", 
+    "email": "benshack@gmail.com",
+    "url": "https://benshack.ca"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benshack/prompter.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "rollup": "^1.10.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
